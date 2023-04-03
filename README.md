@@ -26,5 +26,14 @@ Na Engenharia de Atributos, vemos duas técnicas, a Feature Selection e a Featur
 A partir do uso destas técnicas, criamos um novo dataset, que será utilizado na etapa de pré-processamento de dados.
 
 ## Pré-Processamento de Dados
+No pré-processamento de dados, realizamos a preparação dos dados para modelos de aprendizado de máquina. Neste notebook, há um enfoque na codificação dos dados, convertendo dados categóricos e em formato de texto para dados numéricos, que podem, assim, serem utilizados para modelagem matemática. Para isso, são utlizadas netste notebook técnicas como Label Encoding, One-Hot Encoding e Feature Scaling.
+
+O Label Encoding é uma técnica, normalmente utilizada para variáveis categóricas ordinais, que envolve a troca das categorias por valores numéricos correspondentes, podendo ser feito manualmente através de dicionários em Python, ou através do método LabelEncoder, do pacote preprocessing do SciKit Learn.
+
+O One Hot-Encoding, por sua vez, é normalmente utilizado para variáveis categóricas nominais, e consiste na quebra de uma variável em variáveis dummy para cada categoria, com valores de 0 ou 1. Com isso, o número de variáveis aumenta, o que pode tornar esta técnica inviável no caso de variáveis com um número muito elevado de categorias.
+
+Por fim, o Feature Scaling é o tratamento de variáveis numéricas, para garantir que todas possuam valores em faixas semelhantes, uma vez que valores em escalas muito diferentes podem tornar o modelo preditivo tendencioso. Para isso, são feitas a Normalização, em que o valor mínimo da variável é convertido para 0 e o máximo é 1, ou a Padronização, que converte os valores para um conjunto com média 0 e desvio padrão 1. A Normalização permite observar a diferença dos valores para o máximo e mínimo, porém a Padronização permite, por exemplo, a observação de valores discrepantes, uma vez que não estabelece limites para os dados. Ambos são feitos usando o pacote preprocessing do SciKit Learn, e as funções MinMaxScaler() e StandardScaler(), respectivamente.
+
+
 
 
