@@ -21,4 +21,6 @@ A Engenharia de Atributos consiste na trasnformação dos dados em atributos a s
 
 Antes da Engenharia de Atributos em si, é feita a análise de dados ausentes e dados extremos, ou outliers, de modo a garantir que estes dados não estejam presentes no conjunto final de dados. Além disso, é importante observarmos se as variáveis categóricas estão balanceadas, ou seja, com um número de observações similar. Isso é importante para garantir que os modelos de Machine Learning a serem utilizados aprendam igualmente todas as categorias, e não apresentem resultados tendenciosos.
 
-Na Engenharia de Atributos, vemos duas técnicas, a Feature Selection e a Feature Extraction. 
+Na Engenharia de Atributos, vemos duas técnicas, a Feature Selection e a Feature Extraction. Na Feature Selection, observamos as variáveis de entrada em busca de entender quais são as mais relevantes para o cálculo da variável alvo, e, com isso, retirar as variáveis menos importantes. Com isso, podemos reduzir o custo computacional e, muitas vezes, melhorar a performance dos modelos. Na Feature Extraction, criamos atributos novos a partir de atributos já existentes, para, com isso, diminuir o número total de variáveis. No notebook, são explorados alguns exemplos.
+
+
