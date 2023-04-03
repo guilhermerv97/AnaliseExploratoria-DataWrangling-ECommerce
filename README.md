@@ -23,4 +23,8 @@ Antes da Engenharia de Atributos em si, é feita a análise de dados ausentes e 
 
 Na Engenharia de Atributos, vemos duas técnicas, a Feature Selection e a Feature Extraction. Na Feature Selection, observamos as variáveis de entrada em busca de entender quais são as mais relevantes para o cálculo da variável alvo, e, com isso, retirar as variáveis menos importantes. Com isso, podemos reduzir o custo computacional e, muitas vezes, melhorar a performance dos modelos. Na Feature Extraction, criamos atributos novos a partir de atributos já existentes, para, com isso, diminuir o número total de variáveis. No notebook, são explorados alguns exemplos.
 
+A partir do uso destas técnicas, criamos um novo dataset, que será utilizado na etapa de pré-processamento de dados.
+
+## Pré-Processamento de Dados
+
 
