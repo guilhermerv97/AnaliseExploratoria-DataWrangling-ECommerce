@@ -12,3 +12,13 @@ As variáveis ainda são observadas graficamente. Os principais tipos de gráfic
 -Variáveis categóricas: count plots.
 
 Para análises bivariadas, podemos usar mapas de correlação e pair plots.
+
+Na segunda parte da análise, são dados exemplos de perguntas de negócio a serem respondidas utilizando somente análise exploratória de dados.
+
+## Engenharia de Atributos
+
+A Engenharia de Atributos consiste na trasnformação dos dados em atributos a serem utilizados no processo de aprendizado de máquina, de modo a tornar o modelo mais eficiente.
+
+Antes da Engenharia de Atributos em si, é feita a análise de dados ausentes e dados extremos, ou outliers, de modo a garantir que estes dados não estejam presentes no conjunto final de dados. Além disso, é importante observarmos se as variáveis categóricas estão balanceadas, ou seja, com um número de observações similar. Isso é importante para garantir que os modelos de Machine Learning a serem utilizados aprendam igualmente todas as categorias, e não apresentem resultados tendenciosos.
+
+Na Engenharia de Atributos, vemos duas técnicas, a Feature Selection e a Feature Extraction. 
