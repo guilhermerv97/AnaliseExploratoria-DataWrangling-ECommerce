@@ -1,6 +1,5 @@
 # AnaliseExploratoria-DataWrangling-ECommerce
 
-Projeto em 3 partes feito no curso Big Data Real-Time Analytics com Python e Spark da Data Science Academy, onde são feitos Análise Exploratória de Dados, Engenharia de Atributos e Pré-Processamento de Dados para um conjunto de dados de um e-commerce fictício utilizando linguagem Python e os pacotes NumPy, Pandas, SciKit Learn, Matplotlib e Seaborn.
 
 ## Análise Exploratória de Dados
 Na Análise Exploratória de Dados, os dados são carregados e é feita, inicialmente, uma visão geral do conjunto de dados, como seu formato, além de informações sobre as colunas presentes. Após isso, as variáveis são divididas em dois grupos, as numéricas e as categóricas. Ao fazer esta separação, é importante considerarmos a informação presente, e não apenas o formato do dado. Por exemplo, temos uma variável "entregue_no_prazo", com valores 0 e 1, o que pode indicar, a princípio, que temos uma variável numérica. Porém, os valores 0 e 1 representam entregas no prazo e em atraso, respectivamente, ou seja, trata-se de uma variável categórica, mesmo que representada por números.
